@@ -71,22 +71,22 @@ body {
 }
 
 /* ===================
-    ALL: Orange Theme
+    ALL: Blue Theme
    =================== */
 
 .header-container {
-    border-bottom: 20px solid #e44d26;
+    border-bottom: 20px solid #003366;
 }
 
 .footer-container,
 .main aside {
-    border-top: 20px solid #e44d26;
+    border-top: 20px solid #003366;
 }
 
 .header-container,
 .footer-container,
 .main aside {
-    background: #f16529;
+    background: #336699;
 }
 
 .title {
@@ -112,7 +112,7 @@ nav a {
     font-weight: bold;
 
     color: white;
-    background: #e44d26;
+    background: #003366;
 }
 
 nav a:hover,
@@ -139,6 +139,11 @@ nav a:hover {
 .main aside {
     color: white;
     padding: 0px 5% 10px;
+}
+
+.main aside a {
+    color: white;
+    font-weight: bold;
 }
 
 .footer-container footer {
