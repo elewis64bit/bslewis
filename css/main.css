@@ -13,6 +13,7 @@ textarea {
 body {
     font-size: 1em;
     line-height: 1.4;
+    text-align: right;
 }
 
 ::-moz-selection {
@@ -143,6 +144,7 @@ nav a:hover {
 .footer-container footer {
     color: white;
     padding: 20px 0;
+    text-align: left;
 }
 
 /* ===============
@@ -228,11 +230,11 @@ nav a:hover {
    ============ */
 
     .title {
-        float: left;
+        float: right;
     }
 
     nav {
-        float: right;
+        float: left;
         width: 38%;
     }
 
@@ -241,12 +243,12 @@ nav a:hover {
    ============ */
 
     .main article {
-        float: left;
+        float: right;
         width: 57%;
     }
 
     .main aside {
-        float: right;
+        float: left;
         width: 28%;
     }
 }
